@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#f7f7f8"/>
+  <!-- Platform icons row -->
+  <rect x="80" y="80" width="80" height="60" rx="10" fill="#6b57f1" opacity="0.15"/>
+  <rect x="160" y="80" width="80" height="60" rx="10" fill="#6b57f1" opacity="0.2"/>
+  <rect x="240" y="80" width="80" height="60" rx="10" fill="#6b57f1" opacity="0.25"/>
+  <!-- Arrow -->
+  <path d="M200 150 L200 180" stroke="#6b57f1" stroke-width="2" opacity="0.4"/>
+  <path d="M195 175 L200 180 L205 175" stroke="#6b57f1" stroke-width="2" opacity="0.4"/>
+  <!-- Published indicator -->
+  <rect x="130" y="190" width="140" height="40" rx="8" fill="#6b57f1" opacity="0.1"/>
+  <circle cx="155" cy="210" r="8" fill="#22c55e" opacity="0.6"/>
+  <rect x="170" y="205" width="80" height="6" rx="3" fill="#737384" opacity="0.3"/>
+  <text x="200" y="270" text-anchor="middle" fill="#91919f" font-family="system-ui,sans-serif" font-size="14">C1;8:0F8O</text>
+</svg>

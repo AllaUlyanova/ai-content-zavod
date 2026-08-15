@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#f7f7f8"/>
+  <!-- Empty card placeholders -->
+  <rect x="60" y="60" width="130" height="90" rx="10" fill="#eeeef0" stroke="#d9d9de" stroke-width="1" stroke-dasharray="6 4"/>
+  <rect x="210" y="60" width="130" height="90" rx="10" fill="#eeeef0" stroke="#d9d9de" stroke-width="1" stroke-dasharray="6 4"/>
+  <rect x="135" y="170" width="130" height="90" rx="10" fill="#eeeef0" stroke="#d9d9de" stroke-width="1" stroke-dasharray="6 4"/>
+  <!-- Plus icons -->
+  <path d="M125 105 L125 115 M120 110 L130 110" stroke="#91919f" stroke-width="2" opacity="0.5"/>
+  <path d="M275 105 L275 115 M270 110 L280 110" stroke="#91919f" stroke-width="2" opacity="0.5"/>
+  <path d="M200 215 L200 225 M195 220 L205 220" stroke="#91919f" stroke-width="2" opacity="0.5"/>
+  <text x="200" y="280" text-anchor="middle" fill="#91919f" font-family="system-ui,sans-serif" font-size="14">;85=BA:85 :59AK</text>
+</svg>

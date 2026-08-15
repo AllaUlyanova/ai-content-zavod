@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#f7f7f8"/>
+  <rect x="40" y="40" width="320" height="220" rx="12" fill="#1a1a1f" opacity="0.05"/>
+  <!-- Workflow nodes -->
+  <rect x="60" y="100" width="60" height="40" rx="8" fill="#6b57f1" opacity="0.2"/>
+  <rect x="150" y="80" width="60" height="40" rx="8" fill="#6b57f1" opacity="0.3"/>
+  <rect x="240" y="100" width="60" height="40" rx="8" fill="#6b57f1" opacity="0.4"/>
+  <rect x="150" y="160" width="60" height="40" rx="8" fill="#6b57f1" opacity="0.5"/>
+  <!-- Connection lines -->
+  <path d="M120 120 L150 100" stroke="#6b57f1" stroke-width="2" opacity="0.4"/>
+  <path d="M210 100 L240 120" stroke="#6b57f1" stroke-width="2" opacity="0.4"/>
+  <path d="M180 120 L180 160" stroke="#6b57f1" stroke-width="2" opacity="0.4"/>
+  <text x="200" y="260" text-anchor="middle" fill="#91919f" font-family="system-ui,sans-serif" font-size="14">Workflow n8n</text>
+</svg>

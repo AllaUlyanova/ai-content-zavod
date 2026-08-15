@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#f7f7f8"/>
+  <!-- Phone frame -->
+  <rect x="155" y="30" width="90" height="160" rx="16" fill="#1a1a1f"/>
+  <rect x="160" y="38" width="80" height="144" rx="12" fill="#393941"/>
+  <!-- Avatar circle -->
+  <circle cx="200" cy="90" r="24" fill="#6b57f1" opacity="0.6"/>
+  <!-- Text lines -->
+  <rect x="170" y="130" width="60" height="4" rx="2" fill="#737384" opacity="0.5"/>
+  <rect x="175" y="140" width="50" height="4" rx="2" fill="#737384" opacity="0.3"/>
+  <rect x="180" y="150" width="40" height="4" rx="2" fill="#737384" opacity="0.2"/>
+  <!-- Play button -->
+  <circle cx="200" cy="110" r="12" fill="white" opacity="0.2"/>
+  <path d="M196 105 L206 110 L196 115 Z" fill="white" opacity="0.6"/>
+  <text x="200" y="230" text-anchor="middle" fill="#91919f" font-family="system-ui,sans-serif" font-size="14">AI-@>;8: 9:16</text>
+</svg>
