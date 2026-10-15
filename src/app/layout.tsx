@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: siteConfig.seoTitle,
   description: siteConfig.seoDescription,
   metadataBase: new URL(siteConfig.siteUrl),
+  alternates: {
+    canonical: "./",
+  },
   robots: {
     index: true,
     follow: true,
