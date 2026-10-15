@@ -78,7 +78,6 @@ export const siteConfig = {
   navigation: [
     { label: "Как работает", href: "#how-it-works" },
     { label: "Пример", href: "#video-demo" },
-    { label: "Услуги", href: "#services" },
     { label: "Тарифы", href: "#pricing" },
     { label: "FAQ", href: "#faq" },
     { label: "Telegram", href: "telegram", external: true },

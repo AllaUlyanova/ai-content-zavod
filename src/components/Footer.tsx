@@ -34,9 +34,6 @@ export function Footer() {
               <a href="#video-demo" className="text-sm text-graphite-600 hover:text-accent-600">
                 Пример
               </a>
-              <a href="#services" className="text-sm text-graphite-600 hover:text-accent-600">
-                Услуги
-              </a>
               <a href="#pricing" className="text-sm text-graphite-600 hover:text-accent-600">
                 Тарифы
               </a>
