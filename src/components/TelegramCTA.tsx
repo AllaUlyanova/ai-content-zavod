@@ -30,7 +30,7 @@ export function TelegramCTA() {
           external
           variant="secondary"
           size="lg"
-          className="bg-white text-accent-700 hover:bg-white/90"
+          className="!bg-white !text-accent-700 hover:!bg-white/90"
         >
           <TelegramIcon className="h-5 w-5" />
           {telegramData.cta}

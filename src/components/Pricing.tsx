@@ -95,7 +95,7 @@ export function Pricing() {
 
               <Button
                 variant={plan.highlighted ? "primary" : plan.dark ? "secondary" : "outline"}
-                className={`w-full ${plan.highlighted ? "" : plan.dark ? "bg-white text-graphite-950 hover:bg-graphite-100" : ""}`}
+                className={`w-full ${plan.highlighted ? "" : plan.dark ? "!bg-white !text-graphite-950 hover:!bg-graphite-100" : ""}`}
                 onClick={() => scrollToElement("lead-form")}
               >
                 {plan.cta}
