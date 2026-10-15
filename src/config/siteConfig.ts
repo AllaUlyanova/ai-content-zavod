@@ -37,7 +37,7 @@ export const siteConfig = {
    * Ссылка на ваш Telegram-канал.
    * Используется в Header, Footer, блоке Telegram и кнопках «Задать вопрос».
    */
-  telegramChannelUrl: "https://t.me/Reels_bez_kamery",
+  telegramChannelUrl: "https://t.me/ferst135",
 
   /**
    * Скриншот рабочего процесса n8n.

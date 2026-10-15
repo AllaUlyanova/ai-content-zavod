@@ -28,8 +28,6 @@ export function LeadForm() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const webhookUrl = process.env.NEXT_PUBLIC_N8N_WEBHOOK_URL;
-
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
@@ -39,25 +37,11 @@ export function LeadForm() {
       return;
     }
 
-    if (!webhookUrl) {
-      if (process.env.NODE_ENV === "development") {
-        setErrorMessage(
-          "Webhook n8n не настроен. Добавьте NEXT_PUBLIC_N8N_WEBHOOK_URL в файл .env.local"
-        );
-      } else {
-        setErrorMessage(
-          "Форма временно недоступна. Напишите нам в Telegram."
-        );
-      }
-      setStatus("error");
-      return;
-    }
-
     setStatus("loading");
     setErrorMessage("");
 
     try {
-      const response = await fetch(webhookUrl, {
+      const response = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
